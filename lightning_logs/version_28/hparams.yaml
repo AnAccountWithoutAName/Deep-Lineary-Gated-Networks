@@ -1,0 +1,11 @@
+beta: 1
+criterion: !!python/name:torch.nn.modules.loss.CrossEntropyLoss ''
+hidden_channels: 20
+in_channels: 1
+kernel_size: 3
+lr: 0.001
+num_layers: 4
+optimizer: !!python/name:torch.optim.adam.Adam ''
+out_channels: 10
+padding: same
+weight_decay: 1.0e-05
